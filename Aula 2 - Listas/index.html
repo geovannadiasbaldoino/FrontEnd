@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body style="background-color: antiquewhite; color: #5a2c0e;">
+    <h1>Criar listas em HTML</h1>
+    <p>
+        Listas são usadas para agrupar informações. Do ponto de vista estrutural, <br> as listas   auxiliam a criar documentos organizados. Mas é importante você <br> ter atenção ao criar as listas, deve sempre abrir as marcações e não esquecer <br> de fechá-las corretamente!
+    </p>
+    <p>
+        No HTML, existem três tipos de listas: <br> ordered list (listas ordenadas); <br> unordered list (lista não ordenada); <br> description list (linhas de descrição).
+    </p>
+
+    <h2>Lista ordenada</h2>
+    <p>
+        As listas ordenadas são usadas para exibir itens em uma ordem definida, <br> por exemplo, ordem alfabética ou numérica.
+    </p>
+
+    <h3>Exemplo</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h3>Listas de Cidades</h3>
+    <ol>
+        <li>São Paulo</li>
+        <li>Minas Gerais</li>
+        <li>Rio de Janeiro</li>
+    </ol>
+
+    <h3>E se quisermos começar do 50</h3>
+    <p>
+        Por padrão, uma lista ordenada começa do 1. E se quisermos começar do 50? <br>Podemos usar um atributo <b>chamado start</b>.
+    </p>
+
+    <ol start="50" reversed>
+        <li>Brasil</li>
+        <li>China</li>
+        <li>Estados Unidos</li>
+        <li>Rússia</li>
+        <li>Venezuela</li>
+        <li>México</li>
+    </ol>
+
+    <p>Lista Alfabética maiúscula: </p>
+    <ol type="A">
+        <li>Morango</li>
+        <li>Uva</li>
+        <li>Banana</li>
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+    <p>
+        A lista não ordenada não precisa ser apresentada em uma ordem sequencial.
+    </p>
+
+    <h3>Exemplo:</h3>
+    <ul>
+        <li>Cadeira Flexora</li>
+        <li>Stiff</li>
+        <li>Elevação Pélvica</li>
+        <li>Coice Polia</li>
+        <li>Cadeira Abdutora</li>
+    </ul>
+
+    <p>Alterar o tipo de lista para quadrado:</p>
+    <ul type="square">
+        <li>Casa Térrea</li>
+        <li>Sobrado</li>
+        <li>Apartamento</li>
+        <li>Kitnet</li>
+        <li>Cobertura</li>
+    </ul>
+
+    <p>Alterar o tipo de lista  para discos (círculos vazios):</p>
+    <ul type="circle">
+        <li>Batom</li>
+        <li>Base</li>
+        <li>Corretivo</li>
+        <li>Rímel</li>
+    </ul>
+
+    <h2>Listas Aninhadas em HTML</h2>
+    <p>O HMTL permite criar listas dentro de listas.</p>
+    <h3 style="font-style: italic;">Exemplo:</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+            <ol>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+            </ol>
+        <li>Item 3</li>    
+    </ul>
+
+    <h3>Exercício 1</h3>
+
+    <p>Listas não ordenadas aninhadas:</p>
+    <ul>
+        <li>São Paulo</li>
+        <li>Minas Gerais</li>
+            <ul type="circle">
+                <li>Belo Horizonte</li>
+                <li>Tiradentes</li>
+            </ul>
+        <li>Rio de Janeiro</li>
+    </ul>
+    <p>Lista de tipos diferentes aninhadas:</p>
+    <ol>
+        <li>Café</li>
+        <li>Chá</li>
+            <ul type="circle">
+                <li>Preto</li>
+                <li>Verde</li>
+            </ul>
+        <li>Leite</li>    
+    </ol>
+
+    <h3>Exercício 2 - Meus Jogos Favoritos</h3>
+
+
+    <ol>
+        <li>NES</li>
+            <ul type="square">
+                <li>Mario Bros</li>
+                    <ul type="circle">
+                        <li>Mario Bros 3</li>
+                        <li>Mario: Lost Levels</li>
+                    </ul>
+                <li>Ninja Gaiden</li>    
+            </ul>
+        <li>SNES</li>
+            <ul type="square">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>    
+        <li>PlayStation</li>
+            <ul type="square">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+    </ol>
+
+
+    <h2>Lista de Definições</h2>
+    <p>
+        É como se fosse um dicionário, temos os termos e suas descrições.
+    </p>
+
+    <h3>Exemplo</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar conteúdos de sites.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para especificação de estilos em sites.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade em sites.</dd>
+    </dl>
+
+</body>
+</html>
