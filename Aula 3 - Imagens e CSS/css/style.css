@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(228, 156, 198);
+}
+
+h1 {
+    background-color: rgb(243, 0, 170);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: aliceblue;
+    background-color: rgb(260, 0, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+p {
+    color:aliceblue;
+    background-color: rgb(231, 110, 195);
+}
