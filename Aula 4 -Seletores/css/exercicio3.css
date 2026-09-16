@@ -1,0 +1,43 @@
+.superior1{
+    width: 1000px;
+    height: 300px;
+    border: 3px solid pink;
+}
+
+.superior2{
+    width: 1000px;
+    height: 80px;
+    border-bottom: 3px solid pink;
+    border-left: 3px solid pink;
+    border-right: 3px solid pink;
+}
+
+.div2{
+    display: flex;
+}
+
+.filha1{
+    width: 685px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.filha2{
+    width: 290px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.div3{
+    width: 1000px;
+    height: 30px;
+    border: 3px solid blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

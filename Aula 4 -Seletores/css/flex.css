@@ -1,0 +1,14 @@
+.pai {
+    width: 800px;
+    border: 1px solid black;
+    height: 900px;
+    display: flex;
+}
+
+.item {
+    width: 220px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}

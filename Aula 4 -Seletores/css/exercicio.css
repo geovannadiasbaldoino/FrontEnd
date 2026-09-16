@@ -1,0 +1,17 @@
+.cinza {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+.vermelho {
+    width: 1200px;
+    height: 300px;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.azul {
+    width: 800px;
+    height: 300px;
+    background-color: blue;
+}
