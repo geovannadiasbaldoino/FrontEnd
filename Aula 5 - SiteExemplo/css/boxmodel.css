@@ -1,0 +1,21 @@
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.caixa{
+    margin: auto;
+    background-color: lightgray;
+    /*border*/
+    border: solid red 15px;
+    /*padding = preenchimento*/
+    /*padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 90px;
+    padding-right: 60px;8/
+    /*padding short-Hand*/
+    padding: 30px 20px 50px 70px;
+    /*Margin*/
+    margin: 100px 50px 80px 90px;
+}

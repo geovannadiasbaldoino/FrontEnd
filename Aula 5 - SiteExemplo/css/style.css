@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MENU*/
+.navbar {
+    display: flex;
+    background-color: #1e3a8a;
+    color: white;
+    justify-content: center;/*Centraliza os filhos flex*/
+    font-size: 18px;
+}
+
+.navbar div{
+    margin: 20px;
+}
+
+.conteudo{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+h1{
+    color: #1e3a8a;
+    font-size: 40px;
+}
+
+p{
+    color: #333;
+    font-size: 20px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 500px;
+}
+
+.footer{
+    background-color: #1e3a8a;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
